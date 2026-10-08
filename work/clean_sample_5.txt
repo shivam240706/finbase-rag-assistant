@@ -1,0 +1,850 @@
+FinBase Personal Loans Master Policy & Operational Manual
+Document Code: FB-POL-PL-2026-V4
+Effective Date: October 1, 2026
+Issuing Authority: FinBase Credit & Underwriting Risk Committee
+Classification: Official Customer Policy & Knowledge Base Table of Contents
+Section 1: Executive Summary & Objective
+FinBase Technologies Private Limited ('FinBase') operates a regulated digital lending platform in partnership with licensed Reserve Bank of India (RBI) Non-Banking Financial Companies (NBFCs) and Scheduled Commercial Banks.
+The objective of this Personal Loans Master Policy is to provide transparent, standardized, and legally binding guidelines regarding underwriting criteria, loan tenure, interest pricing mechanisms, loan servicing, default penalties, and loan closure workflows.
+This document serves as the single source of truth for both customer-facing interactions and internal underwriting operations.
+Section 2: Borrower Eligibility Criteria
+2.1 Age and Nationality Applicants must be Indian citizens residing within Indian territorial boundaries at the time of application.
+• Minimum Age: 21 years completed at the date of loan application submission.
+• Maximum Age: 58 years at loan application (or 60 years at the scheduled loan maturity date, whichever is earlier).
+2.2 Employment and Monthly Income Thresholds
+• Salaried Individuals:
+• Minimum net monthly in-hand salary of ₹25,000 credited directly via bank transfer (IMPS/NEFT/RTGS). Cash or bearer cheque salary disbursements are strictly inadmissible.
+• Minimum continuous employment of 6 months with the current employer, and minimum 12 months total verifiable work experience.
+• Self-Employed Professionals & Sole Proprietors:
+• Minimum net monthly business income of ₹35,000, verified via the last 2 consecutive financial years of Income Tax Returns (ITR) with Computation of Income and audited balance sheets.
+• Business vintage of at least 24 continuous months in the same line of business at the registered operating address.
+2.3 Bureau Credit Score and Repayment History
+• Minimum Score Requirement: A bureau score (TransUnion CIBIL or Experian) of not less than 720 is mandatory.
+• Delinquency Constraints:
+• Zero Days Past Due (DPD) occurrences across all active credit facilities over the trailing 12 months.
+• No write-offs, settlements, or restructured loan flags on record within the last 36 months.
+• Total existing Fixed Obligation to Income Ratio (FOIR) must not exceed 55% including the proposed FinBase EMI.
+Section 3: Loan Quantums, Slabs, and Tenure Options
+FinBase offers personal loan facilities structured into standardized quantum bands based on verified income and risk scoring:
+Loan Slab Code Minimum Amount Maximum Amount Permitted Tenures (Months) Target Segment PL-MICRO ₹50,000 ₹1,50,000 12, 18, 24 First-time Borrowers PL-CORE ₹1,50,001 ₹5,00,000 12, 24, 36, 48 Mid-income Salaried PL-PRIME ₹5,00,001 ₹10,00,000 24, 36, 48, 60 High-income Salaried PL-EXECUTIVE ₹10,00,001 ₹15,00,000 36, 48, 60 Executive Tier (Income > ₹1.5L/mo)
+Section 4: Interest Rate Mechanics & Processing Fees
+4.1 Annual Percentage Rate (APR) Personal loan interest rates are fixed throughout the contracted tenure, calculated on a monthly reducing balance method.
+• Base APR Tier 1 (CIBIL 780+): 10.49% to 11.99% per annum.
+• Base APR Tier 2 (CIBIL 750 to 779): 12.00% to 13.99% per annum.
+• Base APR Tier 3 (CIBIL 720 to 749): 14.00% to 16.99% per annum.
+4.2 Upfront Processing Charges
+• Standard processing fee is 1.5% of the gross sanctioned loan amount, subject to a minimum of ₹1,000 and a maximum of ₹15,000.
+• Goods and Services Tax (GST) at 18% is applicable over and above the processing fee and is deducted upfront from the disbursed proceeds.
+• Disbursal stamp duty and e-mandate registration fees (₹150 to ₹400 depending on state of execution) are borne by the borrower.
+Section 5: Repayment, EMI Mandate, and Default Penalties
+5.1 Automated Clearing Mandate
+• All repayments must be executed via automated electronic mandates: NACH, e-NACH, or UPI AutoPay.
+• EMIs are debited on the 5th calendar day of each month. If the 5th is a bank holiday, debit is initiated on the preceding working day.
+5.2 Bounce and Overdue Penalties
+• Cheque/Mandate Bounce Charge: ₹500 + 18% GST per bounce occurrence.
+• Penal Interest: Overdue EMIs attract penal interest at 2.0% per month (24% per annum) calculated on the overdue amount from due date to actual realization date.
+Section 6: Prepayment, Part-Payment, and Foreclosure Guidelines
+Section 6.1: Part-Prepayment Terms
+• Part-prepayment is permitted only after completing a minimum of 6 consecutive monthly EMI cycles from the disbursal date.
+• Borrowers may part-prepay up to 25% of the current outstanding principal balance once per financial year without attracting any penalty.
+• If part-prepayment exceeds 25% of the outstanding principal in a single financial year, an administrative charge of 1.0% + GST is levied on the amount exceeding the 25% threshold.
+Section 6.2: Foreclosure Charges & Rules
+• The applicable foreclosure charge is 3% of the outstanding principal if the loan is closed prior to completing 24 months of the repayment tenure.
+• If the loan is foreclosed after completing 24 months, the foreclosure charge is reduced to 1.5% of the outstanding principal.
+• Full foreclosure is strictly not permitted within the initial 6 months from loan disbursal under any circumstances.
+• Foreclosure requests can be initiated directly via the FinBase App under 'Loans -> Service Requests -> Foreclose Loan'.
+Section 6.3: No-Objection Certificate (NOC) and Lien Discharge
+• Upon settlement of all principal, accrued interest, and foreclosure fees, an authenticated digital No-Objection Certificate (NOC) is generated within 3 business days.
+• FinBase updates credit reporting bureaus (CIBIL, Experian, Equifax, CRIF High Mark) within 15 calendar days from the date of final loan closure.
+Section 7: Operational Procedures, Underwriting Rules & Standards 7
+This section details operational compliance standard FB-OPS-007 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 7.1: Risk tiering and automated fraud score verification.
+• Clause 7.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 7.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 7.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 7.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 7.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 7.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-701 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-702 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-703 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-704 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 8: Operational Procedures, Underwriting Rules & Standards 8
+This section details operational compliance standard FB-OPS-008 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 8.1: Risk tiering and automated fraud score verification.
+• Clause 8.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 8.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 8.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 8.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 8.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 8.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-801 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-802 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-803 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-804 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 9: Operational Procedures, Underwriting Rules & Standards 9
+This section details operational compliance standard FB-OPS-009 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 9.1: Risk tiering and automated fraud score verification.
+• Clause 9.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 9.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 9.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 9.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 9.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 9.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-901 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-902 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-903 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-904 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 10: Operational Procedures, Underwriting Rules & Standards 10
+This section details operational compliance standard FB-OPS-010 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 10.1: Risk tiering and automated fraud score verification.
+• Clause 10.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 10.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 10.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 10.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 10.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 10.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1001 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1002 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1003 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1004 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 11: Operational Procedures, Underwriting Rules & Standards 11
+This section details operational compliance standard FB-OPS-011 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 11.1: Risk tiering and automated fraud score verification.
+• Clause 11.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 11.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 11.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 11.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 11.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 11.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1101 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1102 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1103 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1104 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 12: Operational Procedures, Underwriting Rules & Standards 12
+This section details operational compliance standard FB-OPS-012 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 12.1: Risk tiering and automated fraud score verification.
+• Clause 12.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 12.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 12.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 12.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 12.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 12.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1201 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1202 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1203 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1204 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 13: Operational Procedures, Underwriting Rules & Standards 13
+This section details operational compliance standard FB-OPS-013 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 13.1: Risk tiering and automated fraud score verification.
+• Clause 13.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 13.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 13.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 13.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 13.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 13.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1301 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1302 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1303 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1304 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 14: Operational Procedures, Underwriting Rules & Standards 14
+This section details operational compliance standard FB-OPS-014 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 14.1: Risk tiering and automated fraud score verification.
+• Clause 14.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 14.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 14.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 14.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 14.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 14.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1401 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1402 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1403 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1404 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 15: Operational Procedures, Underwriting Rules & Standards 15
+This section details operational compliance standard FB-OPS-015 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 15.1: Risk tiering and automated fraud score verification.
+• Clause 15.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 15.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 15.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 15.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 15.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 15.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1501 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1502 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1503 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1504 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 16: Operational Procedures, Underwriting Rules & Standards 16
+This section details operational compliance standard FB-OPS-016 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 16.1: Risk tiering and automated fraud score verification.
+• Clause 16.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 16.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 16.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 16.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 16.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 16.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1601 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1602 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1603 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1604 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 17: Operational Procedures, Underwriting Rules & Standards 17
+This section details operational compliance standard FB-OPS-017 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 17.1: Risk tiering and automated fraud score verification.
+• Clause 17.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 17.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 17.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 17.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 17.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 17.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1701 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1702 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1703 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1704 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 18: Operational Procedures, Underwriting Rules & Standards 18
+This section details operational compliance standard FB-OPS-018 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 18.1: Risk tiering and automated fraud score verification.
+• Clause 18.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 18.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 18.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 18.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 18.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 18.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1801 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1802 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1803 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1804 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 19: Operational Procedures, Underwriting Rules & Standards 19
+This section details operational compliance standard FB-OPS-019 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 19.1: Risk tiering and automated fraud score verification.
+• Clause 19.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 19.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 19.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 19.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 19.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 19.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-1901 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-1902 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-1903 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-1904 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 20: Operational Procedures, Underwriting Rules & Standards 20
+This section details operational compliance standard FB-OPS-020 for personal loan processing and risk monitoring.
+The underwriting engine evaluates bank statement telemetry using 90-day cash flow patterns, recurring salary tags, and payroll direct deposits.
+• Clause 20.1: Risk tiering and automated fraud score verification.
+• Clause 20.2: Mandatory debt consolidation disclosures and salary proof verifications.
+• Clause 20.3: Address verification protocols via geolocation and Digilocker electricity bill confirmation.
+• Clause 20.4: Maximum permissible debt ratio calculations and exceptions.
+• Clause 20.5: Customer notification workflows via SMS, email, and authenticated in-app push messages.
+• Clause 20.6: Secondary documentation review guidelines for high-value exposures exceeding ₹10,00,000.
+• Clause 20.7: Employer categorization matrix and list of non-serviceable pin codes.
+Metric Code Parameter Name Tolerance Level Escalation Trigger Remediation Time MET-PL-2001 DTI Threshold Under 50% Exceeds 55% 24 Hours MET-PL-2002 Salary Variance Under 5% Exceeds 10% 12 Hours MET-PL-2003 Bureau Hard Inquiries Under 3 in 30d Exceeds 4 in 30d Instant Rejection MET-PL-2004 NACH Registration TAT Under 48 Hours Over 72 Hours Re-initiate Mandate
+Section 21: Master Schedule of Personal Loan Fees and Charges
+Fee Category Standard Charge Tax Applicability Waiver Condition Application Processing Fee 1.5% of loan amount (Min ₹1,000, Max ₹15,000) 18% GST Extra Non-refundable Mandate Registration / E-sign ₹150 - ₹350 (State Stamp Duty) Included None Mandate / Cheque Bounce Fee ₹500 per bounce 18% GST Extra Incurred on payment failure Penal Overdue Interest 2.0% per month on overdue EMI Exempt Accrues until paid Part-Prepayment Charge 0% (up to 25% of principal / year after 6 EMIs) Nil Prepayment > 25% incurs 1% Foreclosure Charge (< 24 Months) 3.0% of outstanding principal 18% GST Extra Strictly non-waivable Foreclosure Charge (>= 24 Months) 1.5% of outstanding principal 18% GST Extra Standard rate Physical NOC Issuance Copy ₹250 (Digital NOC is 100% Free) 18% GST Extra Requested physical courier Duplicate Repayment Schedule ₹100 in branch (Free in App) 18% GST Extra App download is free Loan Cancellation / Reversal Fee ₹1,00,0 + Interest accrued during cooling days 18% GST Extra Within 3-day cooling period
+Section 22: Dispute Arbitration and Customer Grievance Redressal
+FinBase enforces a strict 3-tier customer grievance escalation mechanism:
+• Level 1 (Support Executive): In-app chat ticket or email to `support@finbase.com`. Resolution TAT: 48 hours.
+• Level 2 (Grievance Officer): If unsatisfied with Level 1, escalate to `grievance.loans@finbase.com`. Resolution TAT: 5 working days.
+• Level 3 (Principal Nodal Officer & RBI Ombudsman): Unresolved disputes beyond 30 days can be appealed directly to the RBI CMS portal (`cms.rbi.org.in`).
+Section 23: Comprehensive Personal Loans FAQ Directory (Items 1 - 100)
+Q001: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 1)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-001].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0001.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q002: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 2)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-002].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0002.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q003: Can I close my personal loan within 3 months of getting it? (Operational case 3)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-003].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0003.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q004: How much part-prepayment can I make without paying any fee? (Operational case 4)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-004].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0004.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q005: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 5)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-005].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0005.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q006: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 6)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-006].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0006.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q007: What is the minimum credit score required by FinBase for personal loans? (Operational case 7)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-007].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0007.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q008: What is the maximum personal loan amount available at FinBase? (Operational case 8)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-008].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0008.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q009: What are the available loan repayment tenures? (Operational case 9)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-009].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0009.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q010: What processing fee is charged on loan approval? (Operational case 10)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-010].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0010.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q011: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 11)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-011].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0011.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q012: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 12)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-012].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0012.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q013: Can I close my personal loan within 3 months of getting it? (Operational case 13)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-013].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0013.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q014: How much part-prepayment can I make without paying any fee? (Operational case 14)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-014].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0014.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q015: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 15)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-015].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0015.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q016: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 16)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-016].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0016.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q017: What is the minimum credit score required by FinBase for personal loans? (Operational case 17)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-017].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0017.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q018: What is the maximum personal loan amount available at FinBase? (Operational case 18)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-018].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0018.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q019: What are the available loan repayment tenures? (Operational case 19)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-019].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0019.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q020: What processing fee is charged on loan approval? (Operational case 20)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-020].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0020.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q021: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 21)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-021].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0021.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q022: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 22)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-022].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0022.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q023: Can I close my personal loan within 3 months of getting it? (Operational case 23)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-023].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0023.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q024: How much part-prepayment can I make without paying any fee? (Operational case 24)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-024].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0024.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q025: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 25)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-025].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0025.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q026: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 26)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-026].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0026.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q027: What is the minimum credit score required by FinBase for personal loans? (Operational case 27)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-027].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0027.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q028: What is the maximum personal loan amount available at FinBase? (Operational case 28)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-028].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0028.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q029: What are the available loan repayment tenures? (Operational case 29)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-029].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0029.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q030: What processing fee is charged on loan approval? (Operational case 30)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-030].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0030.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q031: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 31)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-031].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0031.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q032: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 32)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-032].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0032.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q033: Can I close my personal loan within 3 months of getting it? (Operational case 33)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-033].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0033.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q034: How much part-prepayment can I make without paying any fee? (Operational case 34)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-034].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0034.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q035: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 35)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-035].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0035.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q036: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 36)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-036].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0036.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q037: What is the minimum credit score required by FinBase for personal loans? (Operational case 37)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-037].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0037.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q038: What is the maximum personal loan amount available at FinBase? (Operational case 38)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-038].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0038.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q039: What are the available loan repayment tenures? (Operational case 39)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-039].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0039.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q040: What processing fee is charged on loan approval? (Operational case 40)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-040].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0040.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q041: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 41)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-041].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0041.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q042: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 42)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-042].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0042.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q043: Can I close my personal loan within 3 months of getting it? (Operational case 43)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-043].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0043.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q044: How much part-prepayment can I make without paying any fee? (Operational case 44)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-044].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0044.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q045: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 45)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-045].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0045.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q046: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 46)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-046].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0046.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q047: What is the minimum credit score required by FinBase for personal loans? (Operational case 47)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-047].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0047.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q048: What is the maximum personal loan amount available at FinBase? (Operational case 48)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-048].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0048.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q049: What are the available loan repayment tenures? (Operational case 49)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-049].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0049.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q050: What processing fee is charged on loan approval? (Operational case 50)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-050].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0050.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q051: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 51)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-051].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0051.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q052: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 52)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-052].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0052.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q053: Can I close my personal loan within 3 months of getting it? (Operational case 53)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-053].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0053.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q054: How much part-prepayment can I make without paying any fee? (Operational case 54)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-054].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0054.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q055: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 55)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-055].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0055.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q056: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 56)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-056].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0056.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q057: What is the minimum credit score required by FinBase for personal loans? (Operational case 57)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-057].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0057.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q058: What is the maximum personal loan amount available at FinBase? (Operational case 58)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-058].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0058.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q059: What are the available loan repayment tenures? (Operational case 59)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-059].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0059.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q060: What processing fee is charged on loan approval? (Operational case 60)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-060].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0060.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q061: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 61)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-061].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0061.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q062: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 62)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-062].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0062.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q063: Can I close my personal loan within 3 months of getting it? (Operational case 63)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-063].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0063.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q064: How much part-prepayment can I make without paying any fee? (Operational case 64)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-064].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0064.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q065: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 65)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-065].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0065.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q066: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 66)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-066].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0066.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q067: What is the minimum credit score required by FinBase for personal loans? (Operational case 67)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-067].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0067.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q068: What is the maximum personal loan amount available at FinBase? (Operational case 68)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-068].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0068.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q069: What are the available loan repayment tenures? (Operational case 69)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-069].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0069.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q070: What processing fee is charged on loan approval? (Operational case 70)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-070].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0070.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q071: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 71)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-071].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0071.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q072: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 72)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-072].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0072.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q073: Can I close my personal loan within 3 months of getting it? (Operational case 73)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-073].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0073.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q074: How much part-prepayment can I make without paying any fee? (Operational case 74)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-074].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0074.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q075: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 75)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-075].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0075.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q076: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 76)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-076].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0076.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q077: What is the minimum credit score required by FinBase for personal loans? (Operational case 77)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-077].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0077.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q078: What is the maximum personal loan amount available at FinBase? (Operational case 78)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-078].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0078.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q079: What are the available loan repayment tenures? (Operational case 79)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-079].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0079.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q080: What processing fee is charged on loan approval? (Operational case 80)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-080].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0080.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q081: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 81)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-081].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0081.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q082: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 82)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-082].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0082.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q083: Can I close my personal loan within 3 months of getting it? (Operational case 83)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-083].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0083.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q084: How much part-prepayment can I make without paying any fee? (Operational case 84)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-084].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0084.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q085: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 85)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-085].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0085.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q086: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 86)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-086].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0086.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q087: What is the minimum credit score required by FinBase for personal loans? (Operational case 87)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-087].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0087.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q088: What is the maximum personal loan amount available at FinBase? (Operational case 88)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-088].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0088.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q089: What are the available loan repayment tenures? (Operational case 89)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-089].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0089.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q090: What processing fee is charged on loan approval? (Operational case 90)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-090].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0090.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q091: What is the foreclosure charge if I close my personal loan in 18 months? (Operational case 91)
+According to FinBase Personal Loan Policy Section 4.2, because the loan is closed prior to completing 24 months, the applicable foreclosure charge is 3% of the outstanding principal balance plus 18% GST. [Reference Policy Section: Clause PL-REG-091].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0091.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q092: What is the foreclosure charge if I close my personal loan after 26 months? (Operational case 92)
+As per Section 4.2, if the personal loan is foreclosed after completing 24 months, the applicable charge is reduced to 1.5% of the outstanding principal plus 18% GST. [Reference Policy Section: Clause PL-REG-092].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0092.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q093: Can I close my personal loan within 3 months of getting it? (Operational case 93)
+No. Under Section 4.2 of the FinBase Personal Loan Policy, full foreclosure is strictly not permitted within the initial 6 months from the date of loan disbursal. [Reference Policy Section: Clause PL-REG-093].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0093.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q094: How much part-prepayment can I make without paying any fee? (Operational case 94)
+Under Section 4.1, you can part-prepay up to 25% of the outstanding principal balance once per financial year with zero penalty, provided you have paid at least 6 consecutive EMIs. [Reference Policy Section: Clause PL-REG-094].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0094.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q095: What happens if my monthly EMI bounces due to insufficient funds? (Operational case 95)
+Under Section 5.2, an EMI bounce attracts a bounce charge of ₹500 + GST, along with penal interest of 2% per month on the overdue EMI amount until paid. [Reference Policy Section: Clause PL-REG-095].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0095.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q096: What is the minimum monthly income to qualify for a salaried personal loan? (Operational case 96)
+Salaried applicants must have a minimum net monthly in-hand salary of ₹25,000 credited directly to their bank account, as outlined in
+Section 2.2. [Reference Policy Section: Clause PL-REG-096].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0096.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q097: What is the minimum credit score required by FinBase for personal loans? (Operational case 97)
+A minimum bureau credit score (CIBIL or Experian) of 720 is required under Section 2.3. [Reference Policy Section: Clause PL-REG-097].
+• Applicability: All retail borrowers under loan tier code PL-02.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0097.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q098: What is the maximum personal loan amount available at FinBase? (Operational case 98)
+The maximum loan amount is ₹15,00,000 (15 Lakhs) under Section 3, subject to credit underwriting and income verification. [Reference
+Policy Section: Clause PL-REG-098].
+• Applicability: All retail borrowers under loan tier code PL-03.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0098.
+• Exception criteria: Any deviation requires approval from Risk Level 3 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q099: What are the available loan repayment tenures? (Operational case 99)
+FinBase offers tenure options of 12, 24, 36, 48, and 60 months as detailed in Section 3. [Reference Policy Section: Clause PL-REG-099].
+• Applicability: All retail borrowers under loan tier code PL-04.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0099.
+• Exception criteria: Any deviation requires approval from Risk Level 1 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.
+Q100: What processing fee is charged on loan approval? (Operational case 100)
+Under Section 4.2, the processing fee is 1.5% of the sanctioned loan amount + 18% GST (minimum ₹1,000, maximum ₹15,000).
+[Reference Policy Section: Clause PL-REG-100].
+• Applicability: All retail borrowers under loan tier code PL-01.
+• Verification note: Checked automatically via core lending system rule PL-VAL-0100.
+• Exception criteria: Any deviation requires approval from Risk Level 2 Underwriting Manager.
+• Escalation SLA: 24 business hours for credit review.

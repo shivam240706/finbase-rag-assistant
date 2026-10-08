@@ -1,0 +1,889 @@
+FinBase Credit Cards Comprehensive Handbook & Cardholder Agreement
+Document Code: FB-POL-CC-2026-V5
+Effective Date: October 1, 2026
+Issuing Authority: FinBase Cards & Payments Governance Board
+Classification: Official Customer Product Terms & Cardholder Disclosure Table of Contents
+Section 1: Introduction and Card Tiers Overview
+FinBase issues credit cards on the Visa and RuPay payment networks. This handbook outlines the contractual terms, charges, credit limits, grace periods, and reward structures governing all card variants.
+1.1 FinBase Neo Credit Card (Lifetime Free)
+• Joining & Renewal Fee: Lifetime Free (Zero joining fee, Zero annual fee forever).
+• Rewards & Cashback: Flat 1.0% unlimited cashback on all eligible retail POS and online e-commerce transactions.
+• Exclusions: Fuel purchases, wallet reload transactions, cash withdrawals, and government utility payments do not earn cashback.
+• Airport Lounge Access: No complimentary airport lounge access is included on the Neo tier.
+• Foreign Currency Markup: 3.50% on all cross-border and foreign currency transactions.
+1.2 FinBase Luxe Credit Card (Lifestyle & Travel)
+• Joining & Annual Fee: ₹999 + 18% GST.
+• Annual Fee Waiver: The annual fee for subsequent years is 100% waived if the total annual card spend exceeds ₹1,20,000 in the preceding membership year.
+• Rewards: 2.0% cashback on online e-commerce transactions, 1.0% cashback on in-store offline POS swipes.
+• Airport Lounge Access: 4 complimentary domestic airport lounge visits per calendar year (strictly capped at 1 visit per calendar quarter).
+• Foreign Currency Markup Fee: Reduced markup of 1.50% on all international and foreign currency payments (industry standard is 3.50%).
+1.3 FinBase Metal Credit Card (Ultra-Premium)
+• Joining & Annual Fee: ₹4,999 + 18% GST.
+• Annual Fee Waiver: Waived upon crossing ₹5,00,000 in annual retail spending.
+• Rewards: 3.5% reward points on flights, hotels, fine dining, and international transactions; 1.5% on other retail categories.
+• Lounge Privileges: Unlimited complimentary domestic airport lounge access for primary cardholder, plus 4 complimentary international lounge visits per calendar year via Priority Pass.
+• Foreign Currency Markup Fee: Industry-leading 1.00% markup on international transactions.
+• Concierge: 24/7 global lifestyle and travel concierge desk.
+Section 2: Credit Limit Assignment and Enhancement
+• Initial credit limits are determined based on bureau score, verifiable income, and existing credit lines.
+• Automated Limit Enhancement: Evaluated every 6 months for accounts demonstrating 100% on-time minimum payment track record and credit utilization maintained below 40%.
+• Temporary Limit Enhancements: Available for festive or medical emergencies through in-app approval for up to 30 days.
+Section 3: Billing Cycle, Grace Period, and Minimum Amount Due (MAD)
+3.1 Interest-Free Grace Period Cardholders enjoy an interest-free credit grace period ranging between 45 to 50 days, depending on transaction date.
+The grace period is applicable ONLY if the Total Amount Due from the previous billing cycle was settled in full by the due date.
+3.2 Minimum Amount Due (MAD) Calculation
+• MAD is calculated as 5% of the total outstanding balance, or ₹250 (whichever is higher), plus all applicable taxes, EMI installments, and overdue amounts from prior cycles.
+• Paying only the Minimum Amount Due keeps the account in good standing with credit bureaus but attracts finance charges on the remaining unpaid balance.
+3.3 Finance Charges and Annual Percentage Rate (APR)
+• Unpaid statement balances attract interest at 3.49% per month (effective 41.88% per annum), calculated from transaction date until full realization.
+• Cash advances from ATMs do not enjoy any grace period; interest accrues from the timestamp of cash withdrawal at 3.49% per month.
+Section 4: Credit Card Processing Rules & Security Standards 4
+FinBase Credit Card Operations Standard FB-CCO-004 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 4.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 4.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 4.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 4.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 4.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 4.6: Virtual add-on card issuance limits for family members.
+• Rule 4.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-401 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-402 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-403 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-404 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 5: Credit Card Processing Rules & Security Standards 5
+FinBase Credit Card Operations Standard FB-CCO-005 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 5.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 5.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 5.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 5.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 5.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 5.6: Virtual add-on card issuance limits for family members.
+• Rule 5.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-501 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-502 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-503 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-504 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 6: Credit Card Processing Rules & Security Standards 6
+FinBase Credit Card Operations Standard FB-CCO-006 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 6.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 6.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 6.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 6.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 6.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 6.6: Virtual add-on card issuance limits for family members.
+• Rule 6.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-601 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-602 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-603 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-604 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 7: Credit Card Processing Rules & Security Standards 7
+FinBase Credit Card Operations Standard FB-CCO-007 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 7.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 7.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 7.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 7.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 7.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 7.6: Virtual add-on card issuance limits for family members.
+• Rule 7.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-701 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-702 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-703 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-704 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 8: Credit Card Processing Rules & Security Standards 8
+FinBase Credit Card Operations Standard FB-CCO-008 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 8.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 8.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 8.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 8.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 8.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 8.6: Virtual add-on card issuance limits for family members.
+• Rule 8.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-801 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-802 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-803 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-804 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 9: Credit Card Processing Rules & Security Standards 9
+FinBase Credit Card Operations Standard FB-CCO-009 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 9.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 9.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 9.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 9.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 9.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 9.6: Virtual add-on card issuance limits for family members.
+• Rule 9.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-901 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-902 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-903 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-904 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 10: Credit Card Processing Rules & Security Standards 10
+FinBase Credit Card Operations Standard FB-CCO-010 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 10.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 10.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 10.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 10.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 10.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 10.6: Virtual add-on card issuance limits for family members.
+• Rule 10.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1001 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1002 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1003 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1004 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 11: Credit Card Processing Rules & Security Standards 11
+FinBase Credit Card Operations Standard FB-CCO-011 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 11.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 11.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 11.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 11.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 11.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 11.6: Virtual add-on card issuance limits for family members.
+• Rule 11.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1101 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1102 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1103 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1104 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 12: Credit Card Processing Rules & Security Standards 12
+FinBase Credit Card Operations Standard FB-CCO-012 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 12.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 12.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 12.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 12.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 12.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 12.6: Virtual add-on card issuance limits for family members.
+• Rule 12.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1201 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1202 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1203 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1204 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 13: Credit Card Processing Rules & Security Standards 13
+FinBase Credit Card Operations Standard FB-CCO-013 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 13.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 13.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 13.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 13.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 13.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 13.6: Virtual add-on card issuance limits for family members.
+• Rule 13.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1301 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1302 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1303 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1304 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 14: Credit Card Processing Rules & Security Standards 14
+FinBase Credit Card Operations Standard FB-CCO-014 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 14.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 14.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 14.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 14.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 14.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 14.6: Virtual add-on card issuance limits for family members.
+• Rule 14.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1401 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1402 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1403 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1404 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 15: Credit Card Processing Rules & Security Standards 15
+FinBase Credit Card Operations Standard FB-CCO-015 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 15.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 15.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 15.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 15.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 15.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 15.6: Virtual add-on card issuance limits for family members.
+• Rule 15.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1501 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1502 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1503 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1504 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 16: Credit Card Processing Rules & Security Standards 16
+FinBase Credit Card Operations Standard FB-CCO-016 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 16.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 16.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 16.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 16.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 16.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 16.6: Virtual add-on card issuance limits for family members.
+• Rule 16.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1601 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1602 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1603 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1604 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 17: Credit Card Processing Rules & Security Standards 17
+FinBase Credit Card Operations Standard FB-CCO-017 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 17.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 17.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 17.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 17.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 17.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 17.6: Virtual add-on card issuance limits for family members.
+• Rule 17.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1701 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1702 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1703 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1704 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 18: Credit Card Processing Rules & Security Standards 18
+FinBase Credit Card Operations Standard FB-CCO-018 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 18.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 18.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 18.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 18.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 18.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 18.6: Virtual add-on card issuance limits for family members.
+• Rule 18.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1801 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1802 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1803 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1804 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 19: Credit Card Processing Rules & Security Standards 19
+FinBase Credit Card Operations Standard FB-CCO-019 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 19.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 19.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 19.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 19.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 19.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 19.6: Virtual add-on card issuance limits for family members.
+• Rule 19.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-1901 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-1902 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-1903 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-1904 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 20: Credit Card Processing Rules & Security Standards 20
+FinBase Credit Card Operations Standard FB-CCO-020 outlines tokenization, fraud scoring, and chargeback protocols.
+Every transaction is analyzed in real-time by the neural risk engine for geographic anomalies, velocity bursts, and merchant category risks.
+• Rule 20.1: Contactless tap-to-pay transaction limits without PIN capped at ₹5,000 per transaction.
+• Rule 20.2: Mandatory dynamic CVV generation for online merchant tokenization.
+• Rule 20.3: Dynamic currency conversion (DCC) warnings and merchant markup transparency.
+• Rule 20.4: Fraud alert telemetry and automatic risk step-up authentication.
+• Rule 20.5: Merchant dispute filing workflows under Visa and RuPay chargeback rules.
+• Rule 20.6: Virtual add-on card issuance limits for family members.
+• Rule 20.7: EMI conversion interest rates starting from 14% p.a. for transactions above ₹2,500.
+Rule ID Category Parameter Check Standard Limit Risk Action CC-SEC-2001 Velocity Max transactions per hour 5 swipes SMS Verification Step-up CC-SEC-2002 High Value Single transaction size > ₹1,00,000 App Biometric Push Prompt CC-SEC-2003 Cross Border International online attempt Active toggle Auto-decline if disabled CC-SEC-2004 ATM Cash Daily cash withdrawal cap ₹25,000 PIN block after 3 invalid attempts
+Section 21: Master Schedule of Credit Card Fees and Penalties
+Fee Item FinBase Neo FinBase Luxe FinBase Metal Annual Membership Fee ₹0 (Lifetime Free) ₹999 + GST (Waived at ₹1.2L spend) ₹4,999 + GST (Waived at ₹5L spend) Monthly Finance Charge (APR) 3.49% per month (41.88% p.a.) 3.49% per month (41.88% p.a.) 3.49% per month (41.88% p.a.) Foreign Currency Markup Fee 3.50% + GST 1.50% + GST 1.00% + GST Cash Advance Transaction Fee 2.5% of amount (Min ₹300) 2.5% of amount (Min ₹300) 2.5% of amount (Min ₹300) Late Payment Fee (< ₹500 balance) ₹0 ₹0 ₹0 Late Payment Fee (₹501 - ₹5,000) ₹400 + GST ₹400 + GST ₹400 + GST Late Payment Fee (₹5,001 - ₹10,000) ₹750 + GST ₹750 + GST ₹750 + GST Late Payment Fee (> ₹10,000) ₹1,000 + GST ₹1,000 + GST ₹1,000 + GST Over-limit Fee 2.5% of over-limit (Min ₹500) 2.5% of over-limit (Min ₹500) 2.5% of over-limit (Min ₹500) Card Replacement Fee ₹199 + GST ₹199 + GST ₹999 + GST (Metal card replacement)
+Section 23: Cardholder FAQ Directory (Items 1 - 100)
+Q001: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 1)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-001].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0001.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q002: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 2)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-002].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0002.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q003: Does the FinBase Neo card have any annual or joining fees? (Card operational case 3)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-003].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0003.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q004: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 4) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-004].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0004.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q005: What is the interest rate charged on unpaid credit card bills? (Card operational case 5)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-005].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0005.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q006: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 6)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-006].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0006.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q007: Can I freeze my credit card temporarily if I lose it? (Card operational case 7)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-007].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0007.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q008: How is the Minimum Amount Due (MAD) calculated? (Card operational case 8)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-008].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0008.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q009: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 9)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-009].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0009.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q010: When is credit limit enhancement reviewed? (Card operational case 10)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-010].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0010.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q011: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 11)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-011].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0011.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q012: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 12)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-012].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0012.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q013: Does the FinBase Neo card have any annual or joining fees? (Card operational case 13)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-013].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0013.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q014: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 14) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-014].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0014.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q015: What is the interest rate charged on unpaid credit card bills? (Card operational case 15)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-015].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0015.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q016: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 16)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-016].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0016.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q017: Can I freeze my credit card temporarily if I lose it? (Card operational case 17)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-017].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0017.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q018: How is the Minimum Amount Due (MAD) calculated? (Card operational case 18)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-018].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0018.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q019: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 19)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-019].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0019.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q020: When is credit limit enhancement reviewed? (Card operational case 20)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-020].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0020.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q021: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 21)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-021].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0021.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q022: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 22)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-022].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0022.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q023: Does the FinBase Neo card have any annual or joining fees? (Card operational case 23)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-023].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0023.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q024: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 24) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-024].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0024.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q025: What is the interest rate charged on unpaid credit card bills? (Card operational case 25)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-025].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0025.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q026: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 26)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-026].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0026.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q027: Can I freeze my credit card temporarily if I lose it? (Card operational case 27)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-027].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0027.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q028: How is the Minimum Amount Due (MAD) calculated? (Card operational case 28)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-028].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0028.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q029: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 29)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-029].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0029.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q030: When is credit limit enhancement reviewed? (Card operational case 30)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-030].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0030.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q031: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 31)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-031].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0031.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q032: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 32)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-032].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0032.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q033: Does the FinBase Neo card have any annual or joining fees? (Card operational case 33)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-033].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0033.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q034: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 34) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-034].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0034.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q035: What is the interest rate charged on unpaid credit card bills? (Card operational case 35)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-035].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0035.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q036: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 36)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-036].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0036.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q037: Can I freeze my credit card temporarily if I lose it? (Card operational case 37)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-037].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0037.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q038: How is the Minimum Amount Due (MAD) calculated? (Card operational case 38)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-038].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0038.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q039: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 39)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-039].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0039.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q040: When is credit limit enhancement reviewed? (Card operational case 40)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-040].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0040.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q041: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 41)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-041].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0041.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q042: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 42)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-042].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0042.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q043: Does the FinBase Neo card have any annual or joining fees? (Card operational case 43)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-043].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0043.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q044: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 44) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-044].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0044.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q045: What is the interest rate charged on unpaid credit card bills? (Card operational case 45)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-045].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0045.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q046: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 46)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-046].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0046.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q047: Can I freeze my credit card temporarily if I lose it? (Card operational case 47)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-047].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0047.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q048: How is the Minimum Amount Due (MAD) calculated? (Card operational case 48)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-048].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0048.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q049: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 49)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-049].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0049.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q050: When is credit limit enhancement reviewed? (Card operational case 50)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-050].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0050.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q051: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 51)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-051].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0051.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q052: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 52)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-052].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0052.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q053: Does the FinBase Neo card have any annual or joining fees? (Card operational case 53)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-053].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0053.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q054: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 54) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-054].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0054.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q055: What is the interest rate charged on unpaid credit card bills? (Card operational case 55)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-055].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0055.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q056: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 56)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-056].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0056.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q057: Can I freeze my credit card temporarily if I lose it? (Card operational case 57)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-057].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0057.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q058: How is the Minimum Amount Due (MAD) calculated? (Card operational case 58)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-058].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0058.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q059: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 59)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-059].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0059.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q060: When is credit limit enhancement reviewed? (Card operational case 60)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-060].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0060.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q061: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 61)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-061].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0061.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q062: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 62)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-062].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0062.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q063: Does the FinBase Neo card have any annual or joining fees? (Card operational case 63)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-063].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0063.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q064: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 64) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-064].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0064.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q065: What is the interest rate charged on unpaid credit card bills? (Card operational case 65)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-065].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0065.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q066: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 66)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-066].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0066.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q067: Can I freeze my credit card temporarily if I lose it? (Card operational case 67)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-067].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0067.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q068: How is the Minimum Amount Due (MAD) calculated? (Card operational case 68)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-068].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0068.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q069: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 69)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-069].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0069.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q070: When is credit limit enhancement reviewed? (Card operational case 70)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-070].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0070.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q071: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 71)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-071].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0071.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q072: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 72)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-072].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0072.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q073: Does the FinBase Neo card have any annual or joining fees? (Card operational case 73)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-073].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0073.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q074: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 74) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-074].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0074.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q075: What is the interest rate charged on unpaid credit card bills? (Card operational case 75)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-075].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0075.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q076: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 76)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-076].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0076.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q077: Can I freeze my credit card temporarily if I lose it? (Card operational case 77)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-077].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0077.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q078: How is the Minimum Amount Due (MAD) calculated? (Card operational case 78)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-078].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0078.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q079: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 79)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-079].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0079.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q080: When is credit limit enhancement reviewed? (Card operational case 80)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-080].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0080.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q081: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 81)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-081].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0081.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q082: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 82)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-082].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0082.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q083: Does the FinBase Neo card have any annual or joining fees? (Card operational case 83)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-083].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0083.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q084: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 84) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-084].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0084.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q085: What is the interest rate charged on unpaid credit card bills? (Card operational case 85)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-085].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0085.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q086: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 86)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-086].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0086.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q087: Can I freeze my credit card temporarily if I lose it? (Card operational case 87)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-087].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0087.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q088: How is the Minimum Amount Due (MAD) calculated? (Card operational case 88)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-088].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0088.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q089: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 89)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-089].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0089.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q090: When is credit limit enhancement reviewed? (Card operational case 90)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-090].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0090.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q091: What is the foreign currency markup on the FinBase Luxe card? (Card operational case 91)
+Under Section 1.2, the foreign currency markup fee on the FinBase Luxe Credit Card is 1.50% on all international transactions. [Reference
+Cardholder Agreement Section: Clause CC-RULE-091].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0091.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q092: What is the annual fee for the FinBase Luxe card and how can I get it waived? (Card operational case 92)
+The annual fee is ₹999 + 18% GST. As per Section 1.2, it is 100% waived if your total annual spends exceed ₹1,20,000 in the previous calendar year. [Reference Cardholder Agreement Section: Clause CC-RULE-092].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0092.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q093: Does the FinBase Neo card have any annual or joining fees? (Card operational case 93)
+No. Under Section 1.1, the FinBase Neo Credit Card is 100% Lifetime Free with zero joining and zero renewal fees. [Reference Cardholder
+Agreement Section: Clause CC-RULE-093].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0093.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q094: How many complimentary airport lounge visits come with the FinBase Luxe card? (Card operational
+case 94) Under Section 1.2, the Luxe card provides 4 complimentary domestic airport lounge visits per calendar year, capped at 1 visit per calendar quarter. [Reference Cardholder Agreement Section: Clause CC-RULE-094].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0094.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q095: What is the interest rate charged on unpaid credit card bills? (Card operational case 95)
+Under Section 3.3, finance charges are levied at 3.49% per month (effective 41.88% per annum) on the unpaid balance. [Reference
+Cardholder Agreement Section: Clause CC-RULE-095].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0095.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q096: What is the foreign currency markup fee on the FinBase Metal card? (Card operational case 96)
+Under Section 1.3, the FinBase Metal card features an industry-leading foreign currency markup of only 1.00%. [Reference Cardholder
+Agreement Section: Clause CC-RULE-096].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0096.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q097: Can I freeze my credit card temporarily if I lose it? (Card operational case 97)
+Yes, cardholders can instantly freeze or unfreeze their card at any time via FinBase App -> Cards -> Controls. [Reference Cardholder
+Agreement Section: Clause CC-RULE-097].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0097.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q098: How is the Minimum Amount Due (MAD) calculated? (Card operational case 98)
+Under Section 3.2, MAD is 5% of total outstanding balance or ₹250 (whichever is greater), plus all taxes, EMI installments, and past overdue amounts. [Reference Cardholder Agreement Section: Clause CC-RULE-098].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0098.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q099: What is the cash withdrawal fee from ATMs using a FinBase credit card? (Card operational case 99)
+Under Section 21, ATM cash advance incurs a transaction fee of 2.5% of the withdrawn amount (minimum ₹300), plus immediate interest at 3.49% per month. [Reference Cardholder Agreement Section: Clause CC-RULE-099].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0099.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.
+Q100: When is credit limit enhancement reviewed? (Card operational case 100)
+Under Section 2, credit limit enhancement eligibility is reviewed automatically every 6 months based on payment history and low utilization.
+[Reference Cardholder Agreement Section: Clause CC-RULE-100].
+• Tier Scope: Applicable to Neo, Luxe, and Metal cardholders under standard agreement.
+• Billing Engine Code: Verified under automated billing script CC-BILL-0100.
+• Customer notification: Communicated via monthly e-statement and instant transaction SMS alert.
+• Dispute window: Cardholders may report billing discrepancies within 30 days of statement generation.

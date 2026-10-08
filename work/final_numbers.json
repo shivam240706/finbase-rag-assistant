@@ -1,0 +1,11 @@
+{
+ "chunks": 771,
+ "faq_chunks": 600,
+ "toc_lines_removed": 138,
+ "broken_characters_fixed": 3888,
+ "lines_joined": 2863,
+ "hit@1": 1.0,
+ "hit@5": 1.0,
+ "fact_coverage": 1.0,
+ "traps_handled": "1/1"
+}

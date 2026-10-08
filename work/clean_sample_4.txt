@@ -1,0 +1,874 @@
+FinBase Digital Savings Accounts & Banking Operations Manual
+Document Code: FB-POL-SAV-2026-V3
+Effective Date: October 1, 2026
+Issuing Authority: FinBase Retail Banking & Compliance Committee
+Classification: Official Customer Policy & Operating Manual Table of Contents
+Section 1: Account Features and Minimum Balance Terms
+• Zero Minimum Balance: The FinBase Digital Savings Account operates on a 100% zero-balance structure. There is no Minimum Average Balance (MAB) requirement.
+• Zero Penalty: Customers face zero penalty fees or account maintenance charges for maintaining a low or zero balance.
+• Account Opening: Paperless digital onboarding via Aadhaar OTP and Video KYC in under 5 minutes.
+• Virtual Debit Card: Instant free virtual RuPay/Visa Platinum debit card issued upon account creation.
+Section 2: Tiered Savings Account Interest Rate Slabs
+FinBase calculates interest on daily end-of-day balances, credited quarterly to the account on March 31, June 30, September 30, and December 31:
+Daily Balance Slab Annual Interest Rate (p.a.) Calculation Basis Up to ₹1,00,000 3.50% p.a.
+Daily ledger closing balance Above ₹1,00,000 and up to ₹10,00,000 6.00% p.a.
+Incremental balance above ₹1L Above ₹10,00,000 7.00% p.a.
+Incremental balance above ₹10L Interest is compounded on a quarterly basis and deposited directly into the savings account.
+Section 3: Electronic Fund Transfer Limits & Charges
+• UPI Transfers: 100% Free. Daily cumulative limit of ₹1,00,000 with a maximum of 20 outbound transactions per rolling 24-hour window.
+• IMPS (Immediate Payment Service): Free for all active account holders, up to ₹5,00,000 per calendar day.
+• NEFT & RTGS Transfers: Completely free with zero transaction fees and no upper limit for Full-KYC accounts.
+• ATM Cash Withdrawals:
+• FinBase Partner ATMs: 5 free cash withdrawals per calendar month.
+• Non-Partner ATMs: 3 free withdrawals per month in metro cities (5 in non-metro locations).
+• Subsequent ATM cash withdrawals beyond the free allowance incur a fee of ₹21 + 18% GST per transaction.
+Section 4: Savings Account Telemetry & Operational Standards 4
+Standard FB-SAV-OPS-004 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 4.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 4.2: Nomination updates and succession claim documentation protocols.
+• Rule 4.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 4.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 4.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 4.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 4.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-401 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-402 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-403 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-404 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 5: Savings Account Telemetry & Operational Standards 5
+Standard FB-SAV-OPS-005 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 5.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 5.2: Nomination updates and succession claim documentation protocols.
+• Rule 5.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 5.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 5.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 5.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 5.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-501 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-502 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-503 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-504 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 6: Savings Account Telemetry & Operational Standards 6
+Standard FB-SAV-OPS-006 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 6.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 6.2: Nomination updates and succession claim documentation protocols.
+• Rule 6.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 6.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 6.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 6.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 6.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-601 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-602 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-603 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-604 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 7: Savings Account Telemetry & Operational Standards 7
+Standard FB-SAV-OPS-007 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 7.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 7.2: Nomination updates and succession claim documentation protocols.
+• Rule 7.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 7.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 7.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 7.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 7.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-701 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-702 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-703 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-704 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 8: Savings Account Telemetry & Operational Standards 8
+Standard FB-SAV-OPS-008 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 8.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 8.2: Nomination updates and succession claim documentation protocols.
+• Rule 8.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 8.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 8.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 8.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 8.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-801 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-802 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-803 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-804 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 9: Savings Account Telemetry & Operational Standards 9
+Standard FB-SAV-OPS-009 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 9.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 9.2: Nomination updates and succession claim documentation protocols.
+• Rule 9.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 9.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 9.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 9.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 9.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-901 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-902 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-903 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-904 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 10: Savings Account Telemetry & Operational Standards 10
+Standard FB-SAV-OPS-010 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 10.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 10.2: Nomination updates and succession claim documentation protocols.
+• Rule 10.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 10.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 10.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 10.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 10.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1001 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1002 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1003 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1004 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 11: Savings Account Telemetry & Operational Standards 11
+Standard FB-SAV-OPS-011 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 11.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 11.2: Nomination updates and succession claim documentation protocols.
+• Rule 11.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 11.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 11.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 11.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 11.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1101 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1102 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1103 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1104 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 12: Savings Account Telemetry & Operational Standards 12
+Standard FB-SAV-OPS-012 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 12.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 12.2: Nomination updates and succession claim documentation protocols.
+• Rule 12.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 12.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 12.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 12.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 12.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1201 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1202 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1203 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1204 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 13: Savings Account Telemetry & Operational Standards 13
+Standard FB-SAV-OPS-013 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 13.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 13.2: Nomination updates and succession claim documentation protocols.
+• Rule 13.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 13.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 13.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 13.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 13.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1301 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1302 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1303 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1304 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 14: Savings Account Telemetry & Operational Standards 14
+Standard FB-SAV-OPS-014 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 14.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 14.2: Nomination updates and succession claim documentation protocols.
+• Rule 14.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 14.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 14.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 14.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 14.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1401 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1402 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1403 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1404 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 15: Savings Account Telemetry & Operational Standards 15
+Standard FB-SAV-OPS-015 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 15.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 15.2: Nomination updates and succession claim documentation protocols.
+• Rule 15.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 15.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 15.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 15.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 15.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1501 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1502 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1503 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1504 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 16: Savings Account Telemetry & Operational Standards 16
+Standard FB-SAV-OPS-016 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 16.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 16.2: Nomination updates and succession claim documentation protocols.
+• Rule 16.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 16.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 16.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 16.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 16.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1601 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1602 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1603 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1604 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 17: Savings Account Telemetry & Operational Standards 17
+Standard FB-SAV-OPS-017 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 17.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 17.2: Nomination updates and succession claim documentation protocols.
+• Rule 17.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 17.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 17.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 17.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 17.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1701 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1702 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1703 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1704 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 18: Savings Account Telemetry & Operational Standards 18
+Standard FB-SAV-OPS-018 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 18.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 18.2: Nomination updates and succession claim documentation protocols.
+• Rule 18.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 18.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 18.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 18.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 18.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1801 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1802 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1803 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1804 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 19: Savings Account Telemetry & Operational Standards 19
+Standard FB-SAV-OPS-019 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 19.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 19.2: Nomination updates and succession claim documentation protocols.
+• Rule 19.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 19.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 19.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 19.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 19.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-1901 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-1902 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-1903 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-1904 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 20: Savings Account Telemetry & Operational Standards 20
+Standard FB-SAV-OPS-020 governs account maintenance, nominee registration, and interest withholding compliance.
+Every savings account is integrated with automated sweep-in facilities, biometric security bindings, and daily interest ledger calculations.
+• Rule 20.1: Auto-sweep facility threshold customization and liquid fund linkage.
+• Rule 20.2: Nomination updates and succession claim documentation protocols.
+• Rule 20.3: Foreign inward remittance reporting under FEMA regulations.
+• Rule 20.4: Direct Benefit Transfer (DBT) and Aadhaar seeding procedures.
+• Rule 20.5: Branchless doorstep banking requests for senior citizens and differently-abled customers.
+• Rule 20.6: Joint account holder mandate requirements and survivorship clauses.
+• Rule 20.7: Periodic e-statement generation and cryptographic hash validation.
+Standard Code Service Type Daily Limit Monthly Cap Fee Beyond Limit SAV-OPS-2001 POS E-commerce ₹2,00,000 No Cap Free SAV-OPS-2002 International POS ₹1,00,000 ₹5,00,000 1.5% Forex Fee SAV-OPS-2003 Contactless Tap ₹5,00,0 ₹25,000 Free SAV-OPS-2004 Cash Deposit Partner ₹50,000 ₹2,00,000 ₹50 per transaction
+Section 21: Master Schedule of Savings Account Charges
+Banking Service Standard Charge Notes Minimum Average Balance (MAB) Non-maintenance ₹0 (Zero) No penalty forever Virtual Platinum Debit Card ₹0 (Free) Generated instantly in-app Physical Debit Card Issuance ₹199 + GST One-time courier & personalization Physical Debit Card Annual Fee ₹199 + GST Billed on card anniversary Free ATM Withdrawals (Partner) 5 per month Free of cost Subsequent ATM Withdrawals ₹21 + GST Per successful financial transaction ATM Balance Inquiry beyond free quota ₹10 + GST Non-financial transaction UPI & IMPS Outward Transfers ₹0 (Free) No platform fee NEFT & RTGS Transfers ₹0 (Free) Digital channels Account Closure Fee (within 14 days) ₹0 (Free) Cooling-off period Account Closure Fee (15 days to 12 months) ₹0 (Free) Zero closure charges
+Section 23: Digital Savings Account FAQ Directory (Items 1 - 100)
+Q001: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 1)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-001].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0001.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q002: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 2)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-002].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0002.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q003: What is the maximum interest rate offered on savings accounts? (Operational inquiry 3)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-003].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0003.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q004: How many free ATM withdrawals are available each month? (Operational inquiry 4)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-004].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0004.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q005: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 5)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-005].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0005.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q006: What is the daily transaction limit for UPI payments? (Operational inquiry 6)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-006].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0006.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q007: When is savings account interest credited? (Operational inquiry 7)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-007].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0007.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q008: What is the cost of the virtual debit card? (Operational inquiry 8)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-008].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0008.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q009: Can I request a physical debit card? (Operational inquiry 9)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-009].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0009.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q010: Is there any fee for closing my savings account? (Operational inquiry 10)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-010].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0010.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q011: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 11)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-011].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0011.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q012: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 12)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-012].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0012.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q013: What is the maximum interest rate offered on savings accounts? (Operational inquiry 13)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-013].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0013.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q014: How many free ATM withdrawals are available each month? (Operational inquiry 14)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-014].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0014.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q015: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 15)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-015].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0015.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q016: What is the daily transaction limit for UPI payments? (Operational inquiry 16)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-016].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0016.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q017: When is savings account interest credited? (Operational inquiry 17)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-017].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0017.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q018: What is the cost of the virtual debit card? (Operational inquiry 18)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-018].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0018.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q019: Can I request a physical debit card? (Operational inquiry 19)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-019].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0019.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q020: Is there any fee for closing my savings account? (Operational inquiry 20)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-020].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0020.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q021: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 21)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-021].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0021.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q022: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 22)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-022].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0022.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q023: What is the maximum interest rate offered on savings accounts? (Operational inquiry 23)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-023].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0023.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q024: How many free ATM withdrawals are available each month? (Operational inquiry 24)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-024].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0024.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q025: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 25)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-025].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0025.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q026: What is the daily transaction limit for UPI payments? (Operational inquiry 26)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-026].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0026.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q027: When is savings account interest credited? (Operational inquiry 27)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-027].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0027.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q028: What is the cost of the virtual debit card? (Operational inquiry 28)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-028].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0028.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q029: Can I request a physical debit card? (Operational inquiry 29)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-029].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0029.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q030: Is there any fee for closing my savings account? (Operational inquiry 30)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-030].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0030.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q031: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 31)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-031].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0031.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q032: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 32)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-032].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0032.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q033: What is the maximum interest rate offered on savings accounts? (Operational inquiry 33)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-033].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0033.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q034: How many free ATM withdrawals are available each month? (Operational inquiry 34)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-034].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0034.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q035: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 35)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-035].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0035.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q036: What is the daily transaction limit for UPI payments? (Operational inquiry 36)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-036].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0036.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q037: When is savings account interest credited? (Operational inquiry 37)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-037].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0037.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q038: What is the cost of the virtual debit card? (Operational inquiry 38)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-038].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0038.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q039: Can I request a physical debit card? (Operational inquiry 39)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-039].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0039.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q040: Is there any fee for closing my savings account? (Operational inquiry 40)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-040].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0040.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q041: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 41)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-041].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0041.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q042: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 42)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-042].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0042.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q043: What is the maximum interest rate offered on savings accounts? (Operational inquiry 43)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-043].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0043.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q044: How many free ATM withdrawals are available each month? (Operational inquiry 44)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-044].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0044.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q045: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 45)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-045].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0045.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q046: What is the daily transaction limit for UPI payments? (Operational inquiry 46)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-046].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0046.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q047: When is savings account interest credited? (Operational inquiry 47)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-047].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0047.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q048: What is the cost of the virtual debit card? (Operational inquiry 48)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-048].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0048.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q049: Can I request a physical debit card? (Operational inquiry 49)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-049].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0049.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q050: Is there any fee for closing my savings account? (Operational inquiry 50)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-050].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0050.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q051: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 51)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-051].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0051.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q052: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 52)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-052].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0052.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q053: What is the maximum interest rate offered on savings accounts? (Operational inquiry 53)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-053].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0053.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q054: How many free ATM withdrawals are available each month? (Operational inquiry 54)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-054].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0054.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q055: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 55)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-055].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0055.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q056: What is the daily transaction limit for UPI payments? (Operational inquiry 56)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-056].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0056.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q057: When is savings account interest credited? (Operational inquiry 57)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-057].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0057.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q058: What is the cost of the virtual debit card? (Operational inquiry 58)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-058].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0058.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q059: Can I request a physical debit card? (Operational inquiry 59)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-059].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0059.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q060: Is there any fee for closing my savings account? (Operational inquiry 60)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-060].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0060.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q061: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 61)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-061].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0061.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q062: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 62)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-062].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0062.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q063: What is the maximum interest rate offered on savings accounts? (Operational inquiry 63)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-063].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0063.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q064: How many free ATM withdrawals are available each month? (Operational inquiry 64)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-064].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0064.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q065: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 65)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-065].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0065.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q066: What is the daily transaction limit for UPI payments? (Operational inquiry 66)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-066].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0066.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q067: When is savings account interest credited? (Operational inquiry 67)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-067].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0067.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q068: What is the cost of the virtual debit card? (Operational inquiry 68)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-068].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0068.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q069: Can I request a physical debit card? (Operational inquiry 69)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-069].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0069.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q070: Is there any fee for closing my savings account? (Operational inquiry 70)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-070].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0070.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q071: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 71)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-071].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0071.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q072: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 72)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-072].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0072.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q073: What is the maximum interest rate offered on savings accounts? (Operational inquiry 73)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-073].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0073.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q074: How many free ATM withdrawals are available each month? (Operational inquiry 74)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-074].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0074.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q075: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 75)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-075].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0075.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q076: What is the daily transaction limit for UPI payments? (Operational inquiry 76)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-076].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0076.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q077: When is savings account interest credited? (Operational inquiry 77)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-077].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0077.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q078: What is the cost of the virtual debit card? (Operational inquiry 78)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-078].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0078.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q079: Can I request a physical debit card? (Operational inquiry 79)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-079].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0079.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q080: Is there any fee for closing my savings account? (Operational inquiry 80)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-080].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0080.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q081: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 81)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-081].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0081.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q082: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 82)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-082].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0082.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q083: What is the maximum interest rate offered on savings accounts? (Operational inquiry 83)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-083].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0083.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q084: How many free ATM withdrawals are available each month? (Operational inquiry 84)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-084].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0084.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q085: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 85)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-085].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0085.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q086: What is the daily transaction limit for UPI payments? (Operational inquiry 86)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-086].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0086.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q087: When is savings account interest credited? (Operational inquiry 87)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-087].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0087.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q088: What is the cost of the virtual debit card? (Operational inquiry 88)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-088].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0088.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q089: Can I request a physical debit card? (Operational inquiry 89)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-089].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0089.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q090: Is there any fee for closing my savings account? (Operational inquiry 90)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-090].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0090.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q091: What is the minimum balance required for a FinBase Digital Savings Account? (Operational inquiry 91)
+Under Section 1, the account is a zero-balance account with no Minimum Average Balance (MAB) requirement and zero penalty for maintaining a zero balance. [Reference Savings Account Manual Section: Clause SAV-RULE-091].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0091.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q092: What interest rate do I get if my account balance is ₹5,00,000? (Operational inquiry 92)
+Under Section 2, the first ₹1,00,000 earns 3.50% p.a., while the incremental ₹4,00,000 earns 6.00% p.a. Interest is calculated on daily closing balance. [Reference Savings Account Manual Section: Clause SAV-RULE-092].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0092.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q093: What is the maximum interest rate offered on savings accounts? (Operational inquiry 93)
+Under Section 2, balances exceeding ₹10,00,000 earn 7.00% p.a. on the incremental balance above ₹10 Lakhs. [Reference Savings
+Account Manual Section: Clause SAV-RULE-093].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0093.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q094: How many free ATM withdrawals are available each month? (Operational inquiry 94)
+Under Section 3, customers receive 5 free cash withdrawals per month at partner ATMs (3 free per month at other metro ATMs). Subsequent withdrawals cost ₹21 + GST. [Reference Savings Account Manual Section: Clause SAV-RULE-094].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0094.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q095: Are IMPS or NEFT fund transfers chargeable? (Operational inquiry 95)
+No. Under Section 3, all digital IMPS, NEFT, and RTGS outward transfers are 100% free with zero transaction fees. [Reference Savings
+Account Manual Section: Clause SAV-RULE-095].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0095.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q096: What is the daily transaction limit for UPI payments? (Operational inquiry 96)
+Under Section 3, the standard daily UPI transaction limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window.
+[Reference Savings Account Manual Section: Clause SAV-RULE-096].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0096.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q097: When is savings account interest credited? (Operational inquiry 97)
+Under Section 2, interest is credited quarterly into the account on March 31, June 30, September 30, and December 31. [Reference Savings
+Account Manual Section: Clause SAV-RULE-097].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0097.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q098: What is the cost of the virtual debit card? (Operational inquiry 98)
+The virtual debit card is 100% free and generated instantly in the FinBase app upon account creation. [Reference Savings Account Manual
+Section: Clause SAV-RULE-098].
+• Account Classification: Retail savings tier SAV-CAT-03.
+• Verification engine: Real-time ledger audit module SAV-AUD-0098.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q099: Can I request a physical debit card? (Operational inquiry 99)
+Yes, a physical debit card can be ordered via the app for a one-time issuance fee of ₹199 + GST. [Reference Savings Account Manual
+Section: Clause SAV-RULE-099].
+• Account Classification: Retail savings tier SAV-CAT-01.
+• Verification engine: Real-time ledger audit module SAV-AUD-0099.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.
+Q100: Is there any fee for closing my savings account? (Operational inquiry 100)
+No, FinBase does not levy any account closure fee at any time. [Reference Savings Account Manual Section: Clause SAV-RULE-100].
+• Account Classification: Retail savings tier SAV-CAT-02.
+• Verification engine: Real-time ledger audit module SAV-AUD-0100.
+• Statement proof: Visible in quarterly account statements and downloadable TDS certificates.
+• Support resolution SLA: Immediate resolution via automated banking chatbot.

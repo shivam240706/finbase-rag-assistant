@@ -1,0 +1,851 @@
+FinBase Payments, UPI & Refund Settlement SOP
+Document Code: FB-SOP-PAY-2026-V4
+Effective Date: October 1, 2026
+Issuing Authority: FinBase Payments & Settlement Compliance Division
+Classification: Standard Operating Procedure & Customer Dispute Terms Table of Contents
+Section 1: UPI Limits and 24-Hour Security Cooling Period
+• Standard Daily UPI Limit: Up to ₹1,00,000 per calendar day across peer-to-peer (P2P) transfers.
+• Transaction Frequency Limit: Maximum 20 outbound UPI payments per rolling 24-hour window.
+• First 24-Hour Cooling Period Security Restriction:
+• Whenever a customer links a new bank account or resets their UPI PIN, NPCI security protocols enforce a strict cooling period.
+• Outward UPI payments are restricted to a maximum cumulative limit of ₹5,000 for the initial 24 hours following the PIN reset.
+• Full ₹1,00,000 daily limit automatically unlocks exactly 24 hours after PIN registration.
+Section 2: Failed Transactions and Auto-Reversal Turnaround Time (TAT)
+When money is debited from a customer's account but the transaction fails or the beneficiary does not receive the credit:
+• Mandatory Auto-Reversal TAT: Under RBI and NPCI Harmonization of TAT guidelines, failed transactions must be automatically reversed and credited back to the customer's account within **T+2 business days** (where T is the transaction date).
+• Delayed Reversal Compensation:
+• If the reversal takes longer than T+2 business days, FinBase compensates the customer ₹100 per calendar day of delay.
+• Compensation is calculated from the expiry of the T+2 window until the exact credit date, deposited directly into the customer's account without requiring any manual claim submission.
+Section 3: Merchant Disputes, Chargebacks, and Provisional Credit
+• Customers can dispute unauthorized, double, or incorrect merchant debits through the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days of transaction occurrence.
+• For eligible merchant disputes, provisional credit is credited to the customer's savings account within 7 working days while bank arbitration proceeds.
+Section 4: Payment Gateway Mechanics & Settlement Standards 4
+Payment SOP FB-PAY-MEC-004 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 4.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 4.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 4.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 4.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 4.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 4.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 4.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-401 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-402 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-403 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-404 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 5: Payment Gateway Mechanics & Settlement Standards 5
+Payment SOP FB-PAY-MEC-005 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 5.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 5.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 5.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 5.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 5.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 5.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 5.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-501 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-502 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-503 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-504 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 6: Payment Gateway Mechanics & Settlement Standards 6
+Payment SOP FB-PAY-MEC-006 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 6.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 6.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 6.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 6.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 6.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 6.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 6.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-601 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-602 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-603 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-604 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 7: Payment Gateway Mechanics & Settlement Standards 7
+Payment SOP FB-PAY-MEC-007 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 7.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 7.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 7.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 7.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 7.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 7.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 7.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-701 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-702 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-703 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-704 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 8: Payment Gateway Mechanics & Settlement Standards 8
+Payment SOP FB-PAY-MEC-008 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 8.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 8.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 8.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 8.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 8.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 8.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 8.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-801 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-802 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-803 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-804 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 9: Payment Gateway Mechanics & Settlement Standards 9
+Payment SOP FB-PAY-MEC-009 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 9.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 9.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 9.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 9.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 9.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 9.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 9.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-901 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-902 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-903 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-904 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 10: Payment Gateway Mechanics & Settlement Standards 10
+Payment SOP FB-PAY-MEC-010 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 10.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 10.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 10.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 10.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 10.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 10.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 10.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1001 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1002 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1003 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1004 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 11: Payment Gateway Mechanics & Settlement Standards 11
+Payment SOP FB-PAY-MEC-011 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 11.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 11.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 11.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 11.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 11.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 11.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 11.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1101 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1102 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1103 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1104 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 12: Payment Gateway Mechanics & Settlement Standards 12
+Payment SOP FB-PAY-MEC-012 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 12.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 12.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 12.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 12.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 12.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 12.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 12.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1201 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1202 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1203 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1204 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 13: Payment Gateway Mechanics & Settlement Standards 13
+Payment SOP FB-PAY-MEC-013 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 13.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 13.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 13.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 13.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 13.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 13.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 13.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1301 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1302 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1303 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1304 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 14: Payment Gateway Mechanics & Settlement Standards 14
+Payment SOP FB-PAY-MEC-014 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 14.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 14.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 14.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 14.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 14.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 14.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 14.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1401 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1402 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1403 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1404 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 15: Payment Gateway Mechanics & Settlement Standards 15
+Payment SOP FB-PAY-MEC-015 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 15.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 15.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 15.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 15.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 15.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 15.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 15.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1501 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1502 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1503 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1504 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 16: Payment Gateway Mechanics & Settlement Standards 16
+Payment SOP FB-PAY-MEC-016 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 16.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 16.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 16.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 16.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 16.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 16.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 16.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1601 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1602 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1603 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1604 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 17: Payment Gateway Mechanics & Settlement Standards 17
+Payment SOP FB-PAY-MEC-017 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 17.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 17.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 17.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 17.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 17.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 17.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 17.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1701 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1702 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1703 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1704 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 18: Payment Gateway Mechanics & Settlement Standards 18
+Payment SOP FB-PAY-MEC-018 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 18.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 18.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 18.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 18.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 18.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 18.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 18.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1801 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1802 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1803 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1804 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 19: Payment Gateway Mechanics & Settlement Standards 19
+Payment SOP FB-PAY-MEC-019 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 19.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 19.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 19.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 19.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 19.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 19.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 19.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-1901 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-1902 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-1903 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-1904 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 20: Payment Gateway Mechanics & Settlement Standards 20
+Payment SOP FB-PAY-MEC-020 details reconciliation across NPCI switches, partner bank sponsor gateways, and settlement nodes.
+Every electronic message packet is verified with cryptographic checksums, SHA-256 HMAC tokens, and multi-rail failover redundancy.
+• Protocol 20.1: Auto-retry logic on temporary network timeout (HTTP 504 / U69 responses).
+• Protocol 20.2: Merchant QR dynamic payload parsing and BharatQR compatibility.
+• Protocol 20.3: Mandate execution retry schedule for recurring OTT and SIP debits.
+• Protocol 20.4: P2M refund settlement batches and NEFT fallback mechanisms.
+• Protocol 20.5: Regulatory reporting to RBI Central Payments Fraud Information Registry (CPFIR).
+• Protocol 20.6: Offline UPI 123Pay voice payments reconciliation standards.
+• Protocol 20.7: Cross-border UPI merchant transactions via NIPL international gateways.
+Protocol ID Response Code System Meaning Customer Message Action PAY-ERR-2001 U16 Risk Threshold Exceeded Payment blocked for security Prompt Biometric Step-up PAY-ERR-2002 U30 Beneficiary Bank Offline Beneficiary bank unreachable Retry in 15 mins PAY-ERR-2003 U69 NPCI Timeout Processing payment Check status in 10 mins PAY-ERR-2004 U88 Mandate Insufficient Balance Mandate debit bounced Levies standard bounce fee
+Section 21: Master Auto-Reversal SLA and Compensation Matrix
+Transaction Scenario Regulatory SLA FinBase Standard SLA Customer Compensation if Delayed P2P UPI Failed Debit T + 1 Day T + 2 Business Days ₹100 per day beyond T+2 P2M Merchant Online Debit Failed T + 5 Days T + 2 Business Days ₹100 per day beyond T+5 ATM Cash Not Dispensed T + 5 Days T + 2 Business Days ₹100 per day beyond T+5 IMPS Technical Reversal Failure T + 1 Day T + 1 Business Day ₹100 per day beyond T+1 POS Card Transaction Failed T + 5 Days T + 3 Business Days ₹100 per day beyond T+5 Recurring Mandate Auto-debit Error T + 2 Days T + 1 Business Day Immediate refund + fee waiver
+Section 23: Payments & UPI FAQ Directory (Items 1 - 100)
+Q001: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+1) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-001].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0001.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q002: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 2)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-002].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0002.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q003: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 3)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-003].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0003.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q004: What is the standard daily transaction limit for UPI payments? (Payment incident case 4)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-004].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0004.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q005: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 5)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-005].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0005.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q006: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 6)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-006].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0006.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q007: Can I cancel a completed UPI payment? (Payment incident case 7)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-007].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0007.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q008: Why did my UPI payment fail with response code U69? (Payment incident case 8)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-008].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0008.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q009: Does FinBase charge any fee for UPI transactions? (Payment incident case 9)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-009].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0009.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q010: What is the maximum limit for a single UPI payment? (Payment incident case 10)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-010].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0010.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q011: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+11) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-011].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0011.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q012: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 12)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-012].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0012.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q013: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 13)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-013].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0013.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q014: What is the standard daily transaction limit for UPI payments? (Payment incident case 14)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-014].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0014.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q015: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 15)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-015].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0015.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q016: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 16)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-016].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0016.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q017: Can I cancel a completed UPI payment? (Payment incident case 17)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-017].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0017.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q018: Why did my UPI payment fail with response code U69? (Payment incident case 18)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-018].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0018.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q019: Does FinBase charge any fee for UPI transactions? (Payment incident case 19)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-019].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0019.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q020: What is the maximum limit for a single UPI payment? (Payment incident case 20)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-020].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0020.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q021: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+21) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-021].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0021.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q022: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 22)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-022].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0022.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q023: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 23)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-023].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0023.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q024: What is the standard daily transaction limit for UPI payments? (Payment incident case 24)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-024].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0024.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q025: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 25)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-025].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0025.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q026: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 26)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-026].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0026.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q027: Can I cancel a completed UPI payment? (Payment incident case 27)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-027].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0027.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q028: Why did my UPI payment fail with response code U69? (Payment incident case 28)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-028].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0028.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q029: Does FinBase charge any fee for UPI transactions? (Payment incident case 29)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-029].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0029.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q030: What is the maximum limit for a single UPI payment? (Payment incident case 30)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-030].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0030.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q031: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+31) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-031].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0031.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q032: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 32)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-032].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0032.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q033: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 33)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-033].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0033.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q034: What is the standard daily transaction limit for UPI payments? (Payment incident case 34)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-034].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0034.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q035: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 35)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-035].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0035.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q036: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 36)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-036].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0036.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q037: Can I cancel a completed UPI payment? (Payment incident case 37)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-037].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0037.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q038: Why did my UPI payment fail with response code U69? (Payment incident case 38)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-038].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0038.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q039: Does FinBase charge any fee for UPI transactions? (Payment incident case 39)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-039].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0039.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q040: What is the maximum limit for a single UPI payment? (Payment incident case 40)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-040].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0040.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q041: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+41) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-041].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0041.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q042: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 42)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-042].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0042.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q043: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 43)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-043].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0043.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q044: What is the standard daily transaction limit for UPI payments? (Payment incident case 44)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-044].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0044.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q045: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 45)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-045].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0045.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q046: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 46)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-046].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0046.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q047: Can I cancel a completed UPI payment? (Payment incident case 47)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-047].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0047.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q048: Why did my UPI payment fail with response code U69? (Payment incident case 48)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-048].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0048.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q049: Does FinBase charge any fee for UPI transactions? (Payment incident case 49)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-049].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0049.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q050: What is the maximum limit for a single UPI payment? (Payment incident case 50)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-050].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0050.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q051: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+51) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-051].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0051.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q052: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 52)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-052].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0052.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q053: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 53)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-053].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0053.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q054: What is the standard daily transaction limit for UPI payments? (Payment incident case 54)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-054].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0054.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q055: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 55)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-055].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0055.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q056: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 56)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-056].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0056.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q057: Can I cancel a completed UPI payment? (Payment incident case 57)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-057].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0057.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q058: Why did my UPI payment fail with response code U69? (Payment incident case 58)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-058].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0058.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q059: Does FinBase charge any fee for UPI transactions? (Payment incident case 59)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-059].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0059.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q060: What is the maximum limit for a single UPI payment? (Payment incident case 60)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-060].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0060.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q061: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+61) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-061].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0061.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q062: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 62)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-062].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0062.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q063: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 63)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-063].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0063.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q064: What is the standard daily transaction limit for UPI payments? (Payment incident case 64)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-064].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0064.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q065: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 65)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-065].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0065.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q066: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 66)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-066].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0066.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q067: Can I cancel a completed UPI payment? (Payment incident case 67)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-067].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0067.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q068: Why did my UPI payment fail with response code U69? (Payment incident case 68)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-068].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0068.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q069: Does FinBase charge any fee for UPI transactions? (Payment incident case 69)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-069].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0069.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q070: What is the maximum limit for a single UPI payment? (Payment incident case 70)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-070].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0070.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q071: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+71) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-071].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0071.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q072: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 72)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-072].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0072.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q073: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 73)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-073].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0073.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q074: What is the standard daily transaction limit for UPI payments? (Payment incident case 74)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-074].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0074.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q075: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 75)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-075].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0075.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q076: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 76)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-076].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0076.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q077: Can I cancel a completed UPI payment? (Payment incident case 77)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-077].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0077.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q078: Why did my UPI payment fail with response code U69? (Payment incident case 78)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-078].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0078.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q079: Does FinBase charge any fee for UPI transactions? (Payment incident case 79)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-079].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0079.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q080: What is the maximum limit for a single UPI payment? (Payment incident case 80)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-080].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0080.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q081: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+81) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-081].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0081.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q082: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 82)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-082].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0082.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q083: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 83)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-083].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0083.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q084: What is the standard daily transaction limit for UPI payments? (Payment incident case 84)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-084].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0084.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q085: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 85)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-085].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0085.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q086: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 86)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-086].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0086.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q087: Can I cancel a completed UPI payment? (Payment incident case 87)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-087].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0087.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q088: Why did my UPI payment fail with response code U69? (Payment incident case 88)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-088].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0088.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q089: Does FinBase charge any fee for UPI transactions? (Payment incident case 89)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-089].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0089.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q090: What is the maximum limit for a single UPI payment? (Payment incident case 90)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-090].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0090.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q091: My UPI transaction failed but money was deducted. When will I receive a refund? (Payment incident case
+91) Under Section 2, failed UPI debits are automatically credited back within T+2 business days under RBI and NPCI guidelines. [Reference
+Payments SOP Section: Clause PAY-SOP-091].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0091.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q092: What compensation is payable if my failed transaction refund is delayed? (Payment incident case 92)
+Under Section 2, if the auto-reversal exceeds T+2 business days, FinBase compensates you ₹100 per calendar day of delay directly into your account. [Reference Payments SOP Section: Clause PAY-SOP-092].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0092.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q093: What is the UPI transfer limit during the first 24 hours of resetting my PIN? (Payment incident case 93)
+Under Section 1, there is a security cooling period restricting outward UPI payments to a maximum of ₹5,000 for the first 24 hours after a PIN reset. [Reference Payments SOP Section: Clause PAY-SOP-093].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0093.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q094: What is the standard daily transaction limit for UPI payments? (Payment incident case 94)
+Under Section 1, the daily UPI limit is ₹1,00,000 or a maximum of 20 outbound transactions per rolling 24-hour window. [Reference
+Payments SOP Section: Clause PAY-SOP-094].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0094.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q095: How do I raise a dispute for an unauthorized debit on my account? (Payment incident case 95)
+Under Section 3, you can dispute the transaction directly in the FinBase App under 'Transaction Details -> Report Issue' within 3 calendar days. [Reference Payments SOP Section: Clause PAY-SOP-095].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0095.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q096: When do I get provisional credit for a disputed merchant transaction? (Payment incident case 96)
+Under Section 3, eligible disputed merchant transactions receive provisional credit within 7 business days while bank arbitration proceeds.
+[Reference Payments SOP Section: Clause PAY-SOP-096].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 2.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0096.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q097: Can I cancel a completed UPI payment? (Payment incident case 97)
+No. UPI transactions are instant and irrevocable once completed. If sent to the wrong person, contact the recipient or file a wrong credit dispute. [Reference Payments SOP Section: Clause PAY-SOP-097].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 3.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0097.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q098: Why did my UPI payment fail with response code U69? (Payment incident case 98)
+Response code U69 indicates a temporary network timeout between the switch and the beneficiary bank. Auto-reversal initiates within T+2 days if debited. [Reference Payments SOP Section: Clause PAY-SOP-098].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 4.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0098.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q099: Does FinBase charge any fee for UPI transactions? (Payment incident case 99)
+No, FinBase does not charge any fee for peer-to-peer (P2P) or merchant (P2M) UPI transactions. [Reference Payments SOP Section:
+Clause PAY-SOP-099].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 5.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0099.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.
+Q100: What is the maximum limit for a single UPI payment? (Payment incident case 100)
+Standard maximum limit per transaction is ₹1,00,000, subject to merchant category guidelines. [Reference Payments SOP Section: Clause PAY-SOP-100].
+• Switch Route: NPCI UPI 2.0 Central Clearing Switch node 1.
+• Reconciliation code: Auto-reconciled under batch job PAY-REC-0100.
+• Verification reference: NPCI Universal Transaction Reference (UTR) 12-digit key.
+• Dispute turnaround time: 48 business hours.

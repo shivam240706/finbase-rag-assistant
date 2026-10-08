@@ -1,0 +1,21 @@
+[
+ {
+  "id": "A1",
+  "q": "What is the foreclosure charge on a personal loan?",
+  "answerable": true,
+  "gold_doc": "sample_5",
+  "gold_section": "6.2",
+  "gold_facts": [
+   "3%",
+   "24 months"
+  ]
+ },
+ {
+  "id": "T1",
+  "q": "What are the charges for a bank locker facility?",
+  "answerable": false,
+  "gold_doc": null,
+  "gold_section": null,
+  "gold_facts": []
+ }
+]

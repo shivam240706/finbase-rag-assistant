@@ -1,0 +1,877 @@
+FinBase KYC Verification, Compliance & Security Master Document
+Document Code: FB-POL-KYC-SEC-2026-V5
+Effective Date: October 1, 2026
+Issuing Authority: FinBase Chief Information Security Officer (CISO) & Legal Compliance
+Classification: Master Regulatory Policy & Security Standards Table of Contents
+Section 1: Customer Identification and KYC Tiers
+• Minimum KYC (Digital Onboarding):
+• Completed instantly via Aadhaar OTP validation.
+• Monthly credit transaction limit: ₹10,000. Annual cumulative limit: ₹1,00,000.
+• Validity: Strictly valid for 12 months, within which Full Video KYC must be completed to prevent account restriction.
+• Full KYC (Unrestricted):
+• Completed via Video KYC (V-KYC) or in-person verification.
+• Removes all balance and transaction limits; unlocks personal loans, credit cards, and wealth management.
+Section 2: Officially Valid Documents (OVD) Accepted
+In accordance with RBI Master Directions on KYC, FinBase accepts the following 5 Officially Valid Documents for identity and address
+verification:
+1. Aadhaar Card (Via UIDAI DigiLocker OTP or masked paper e-Aadhaar).
+2. PAN Card (Mandatory for credit cards, personal loans, and deposits exceeding ₹50,000).
+3. Indian Passport (Must be valid and unexpired).
+4. Driving License (Smart card or verifiable DigiLocker document).
+5. Voter ID Card (Issued by the Election Commission of India).
+Section 3: Video KYC Process, Timings, and Prerequisites
+• Operating Hours: Video KYC agents are available **Monday through Saturday from 9:00 AM to 8:00 PM IST** (closed on national holidays).
+• Prerequisites for the Customer:
+• Original physical PAN card in hand (laminated original card; screenshots or photocopies are strictly rejected).
+• A blank white sheet of paper and a black or blue pen for live on-camera signature capture.
+• High-speed internet connection and active smartphone/laptop camera and microphone.
+• Device geolocation (GPS) must be enabled to verify physical presence within India during the video session.
+Section 4: Account Inactivity, Dormancy, and Reactivation
+• Inactive Account: An account with no customer-initiated financial transactions for **12 continuous months** is classified as Inactive.
+• Dormant Account: If no customer transactions occur for **24 continuous months**, the account automatically transitions to Dormant status.
+• Reactivation Procedure: Reactivation cannot be performed over phone support. The customer must complete a 1-minute digital re-KYC self-declaration and video verification via the FinBase App.
+Section 5: Electronic Fraud & Zero Liability Policy
+FinBase enforces RBI Customer Protection Guidelines regarding unauthorized electronic banking transactions:
+• Zero Liability (100% Refund):
+• Applies when unauthorized fraud occurs due to contributory negligence, fraud, or deficiency on the part of FinBase.
+• Applies in third-party breaches where the customer notifies FinBase within 3 calendar days of receiving the transaction alert.
+• Limited Liability:
+• If reported between 4 to 7 calendar days, customer liability is capped at ₹5,000 (or transaction value, whichever is lower).
+• Beyond 7 Days:
+• Customer liability is determined based on bank board-approved dispute review and case investigation.
+Section 6: Emergency Account & Card Blocking Protocols
+• Instant In-App Freeze: Open FinBase App -> Security -> Toggle 'Freeze All Cards' to immediately disable POS, online, and ATM transactions.
+• 24/7 Dedicated Fraud Helpline: Call toll-free **1800-FIN-BASE (1800-346-2273)** or email `fraud-alert@finbase.com`.
+Section 7: Information Security Architecture & Telemetry Standards 7
+Information Security Standard FB-SEC-STD-007 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 7.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 7.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 7.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 7.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 7.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 7.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 7.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 8: Information Security Architecture & Telemetry Standards 8
+Information Security Standard FB-SEC-STD-008 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 8.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 8.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 8.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 8.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 8.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 8.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 8.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 9: Information Security Architecture & Telemetry Standards 9
+Information Security Standard FB-SEC-STD-009 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 9.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 9.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 9.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 9.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 9.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 9.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 9.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 10: Information Security Architecture & Telemetry Standards 10
+Information Security Standard FB-SEC-STD-010 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 10.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 10.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 10.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 10.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 10.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 10.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 10.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 11: Information Security Architecture & Telemetry Standards 11
+Information Security Standard FB-SEC-STD-011 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 11.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 11.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 11.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 11.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 11.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 11.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 11.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 12: Information Security Architecture & Telemetry Standards 12
+Information Security Standard FB-SEC-STD-012 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 12.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 12.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 12.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 12.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 12.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 12.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 12.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 13: Information Security Architecture & Telemetry Standards 13
+Information Security Standard FB-SEC-STD-013 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 13.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 13.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 13.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 13.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 13.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 13.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 13.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 14: Information Security Architecture & Telemetry Standards 14
+Information Security Standard FB-SEC-STD-014 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 14.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 14.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 14.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 14.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 14.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 14.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 14.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 15: Information Security Architecture & Telemetry Standards 15
+Information Security Standard FB-SEC-STD-015 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 15.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 15.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 15.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 15.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 15.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 15.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 15.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 16: Information Security Architecture & Telemetry Standards 16
+Information Security Standard FB-SEC-STD-016 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 16.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 16.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 16.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 16.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 16.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 16.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 16.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 17: Information Security Architecture & Telemetry Standards 17
+Information Security Standard FB-SEC-STD-017 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 17.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 17.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 17.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 17.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 17.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 17.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 17.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 18: Information Security Architecture & Telemetry Standards 18
+Information Security Standard FB-SEC-STD-018 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 18.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 18.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 18.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 18.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 18.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 18.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 18.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 19: Information Security Architecture & Telemetry Standards 19
+Information Security Standard FB-SEC-STD-019 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 19.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 19.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 19.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 19.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 19.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 19.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 19.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 20: Information Security Architecture & Telemetry Standards 20
+Information Security Standard FB-SEC-STD-020 mandates AES-256 encryption at rest and TLS 1.3 encryption in transit.
+All customer interaction sessions are audited via tamper-evident cryptographic append-only logs.
+• Standard 20.1: Biometric authentication key exchange and hardware security module (HSM) isolation.
+• Standard 20.2: Two-Factor Authentication (2FA) enforcement for transactions above ₹2,000.
+• Standard 20.3: Device binding protocol via cellular SMS cryptographic challenge-response.
+• Standard 20.4: Root and jailbreak detection preventing app execution on compromised operating systems.
+• Standard 20.5: Periodic cyber resilience testing and vulnerability disclosure program.
+• Standard 20.6: Insider threat monitoring and privileged access workstation segregation.
+• Standard 20.7: Incident reporting to Indian Computer Emergency Response Team (CERT-In).
+Security Layer Standard Implemented Frequency Audit Body Certification Data at Rest AES-256 GCM Continuous CERT-In Empaneled ISO 27001 Data in Transit TLS 1.3 Perfect Forward Secrecy Continuous External Auditor PCI-DSS V4.0 Mobile App VAPT Static & Dynamic Analysis Monthly Independent Lab OWASP MASVS Database Access Role Based Zero Trust Real-time Internal SecOps SOC 2 Type II
+Section 23: KYC & Security FAQ Directory (Items 1 - 100)
+Q001: What documents are required to complete Video KYC verification? (Security case 1)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-001].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0001.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q002: What are the operating hours for Video KYC agents? (Security case 2)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-002].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0002.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q003: When does an account become dormant due to inactivity? (Security case 3)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-003].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0003.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q004: What is the customer liability policy if fraud is reported within 3 days? (Security case 4)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-004].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0004.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q005: What is the emergency helpline number to report fraud or freeze my cards? (Security case 5)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-005].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0005.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q006: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 6)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-006].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0006.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q007: What is the transaction limit on a Minimum KYC account? (Security case 7)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-007].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0007.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q008: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 8)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-008].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0008.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q009: How can I reactivate my dormant bank account? (Security case 9)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-009].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0009.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q010: When is Two-Factor Authentication (2FA) mandatory? (Security case 10)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-010].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0010.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q011: What documents are required to complete Video KYC verification? (Security case 11)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-011].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0011.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q012: What are the operating hours for Video KYC agents? (Security case 12)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-012].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0012.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q013: When does an account become dormant due to inactivity? (Security case 13)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-013].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0013.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q014: What is the customer liability policy if fraud is reported within 3 days? (Security case 14)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-014].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0014.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q015: What is the emergency helpline number to report fraud or freeze my cards? (Security case 15)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-015].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0015.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q016: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 16)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-016].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0016.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q017: What is the transaction limit on a Minimum KYC account? (Security case 17)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-017].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0017.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q018: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 18)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-018].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0018.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q019: How can I reactivate my dormant bank account? (Security case 19)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-019].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0019.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q020: When is Two-Factor Authentication (2FA) mandatory? (Security case 20)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-020].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0020.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q021: What documents are required to complete Video KYC verification? (Security case 21)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-021].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0021.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q022: What are the operating hours for Video KYC agents? (Security case 22)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-022].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0022.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q023: When does an account become dormant due to inactivity? (Security case 23)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-023].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0023.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q024: What is the customer liability policy if fraud is reported within 3 days? (Security case 24)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-024].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0024.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q025: What is the emergency helpline number to report fraud or freeze my cards? (Security case 25)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-025].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0025.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q026: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 26)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-026].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0026.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q027: What is the transaction limit on a Minimum KYC account? (Security case 27)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-027].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0027.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q028: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 28)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-028].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0028.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q029: How can I reactivate my dormant bank account? (Security case 29)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-029].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0029.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q030: When is Two-Factor Authentication (2FA) mandatory? (Security case 30)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-030].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0030.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q031: What documents are required to complete Video KYC verification? (Security case 31)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-031].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0031.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q032: What are the operating hours for Video KYC agents? (Security case 32)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-032].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0032.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q033: When does an account become dormant due to inactivity? (Security case 33)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-033].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0033.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q034: What is the customer liability policy if fraud is reported within 3 days? (Security case 34)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-034].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0034.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q035: What is the emergency helpline number to report fraud or freeze my cards? (Security case 35)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-035].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0035.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q036: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 36)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-036].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0036.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q037: What is the transaction limit on a Minimum KYC account? (Security case 37)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-037].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0037.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q038: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 38)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-038].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0038.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q039: How can I reactivate my dormant bank account? (Security case 39)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-039].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0039.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q040: When is Two-Factor Authentication (2FA) mandatory? (Security case 40)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-040].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0040.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q041: What documents are required to complete Video KYC verification? (Security case 41)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-041].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0041.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q042: What are the operating hours for Video KYC agents? (Security case 42)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-042].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0042.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q043: When does an account become dormant due to inactivity? (Security case 43)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-043].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0043.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q044: What is the customer liability policy if fraud is reported within 3 days? (Security case 44)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-044].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0044.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q045: What is the emergency helpline number to report fraud or freeze my cards? (Security case 45)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-045].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0045.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q046: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 46)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-046].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0046.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q047: What is the transaction limit on a Minimum KYC account? (Security case 47)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-047].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0047.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q048: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 48)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-048].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0048.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q049: How can I reactivate my dormant bank account? (Security case 49)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-049].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0049.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q050: When is Two-Factor Authentication (2FA) mandatory? (Security case 50)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-050].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0050.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q051: What documents are required to complete Video KYC verification? (Security case 51)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-051].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0051.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q052: What are the operating hours for Video KYC agents? (Security case 52)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-052].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0052.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q053: When does an account become dormant due to inactivity? (Security case 53)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-053].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0053.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q054: What is the customer liability policy if fraud is reported within 3 days? (Security case 54)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-054].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0054.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q055: What is the emergency helpline number to report fraud or freeze my cards? (Security case 55)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-055].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0055.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q056: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 56)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-056].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0056.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q057: What is the transaction limit on a Minimum KYC account? (Security case 57)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-057].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0057.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q058: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 58)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-058].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0058.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q059: How can I reactivate my dormant bank account? (Security case 59)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-059].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0059.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q060: When is Two-Factor Authentication (2FA) mandatory? (Security case 60)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-060].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0060.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q061: What documents are required to complete Video KYC verification? (Security case 61)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-061].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0061.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q062: What are the operating hours for Video KYC agents? (Security case 62)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-062].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0062.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q063: When does an account become dormant due to inactivity? (Security case 63)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-063].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0063.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q064: What is the customer liability policy if fraud is reported within 3 days? (Security case 64)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-064].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0064.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q065: What is the emergency helpline number to report fraud or freeze my cards? (Security case 65)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-065].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0065.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q066: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 66)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-066].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0066.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q067: What is the transaction limit on a Minimum KYC account? (Security case 67)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-067].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0067.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q068: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 68)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-068].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0068.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q069: How can I reactivate my dormant bank account? (Security case 69)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-069].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0069.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q070: When is Two-Factor Authentication (2FA) mandatory? (Security case 70)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-070].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0070.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q071: What documents are required to complete Video KYC verification? (Security case 71)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-071].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0071.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q072: What are the operating hours for Video KYC agents? (Security case 72)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-072].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0072.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q073: When does an account become dormant due to inactivity? (Security case 73)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-073].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0073.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q074: What is the customer liability policy if fraud is reported within 3 days? (Security case 74)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-074].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0074.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q075: What is the emergency helpline number to report fraud or freeze my cards? (Security case 75)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-075].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0075.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q076: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 76)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-076].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0076.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q077: What is the transaction limit on a Minimum KYC account? (Security case 77)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-077].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0077.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q078: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 78)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-078].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0078.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q079: How can I reactivate my dormant bank account? (Security case 79)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-079].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0079.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q080: When is Two-Factor Authentication (2FA) mandatory? (Security case 80)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-080].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0080.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q081: What documents are required to complete Video KYC verification? (Security case 81)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-081].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0081.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q082: What are the operating hours for Video KYC agents? (Security case 82)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-082].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0082.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q083: When does an account become dormant due to inactivity? (Security case 83)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-083].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0083.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q084: What is the customer liability policy if fraud is reported within 3 days? (Security case 84)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-084].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0084.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q085: What is the emergency helpline number to report fraud or freeze my cards? (Security case 85)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-085].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0085.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q086: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 86)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-086].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0086.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q087: What is the transaction limit on a Minimum KYC account? (Security case 87)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-087].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0087.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q088: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 88)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-088].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0088.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q089: How can I reactivate my dormant bank account? (Security case 89)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-089].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0089.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q090: When is Two-Factor Authentication (2FA) mandatory? (Security case 90)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-090].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0090.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q091: What documents are required to complete Video KYC verification? (Security case 91)
+Under Section 3, you need your original physical PAN card, a blank white sheet of paper, and a blue/black pen for live signature capture, with GPS enabled in India. [Reference KYC & Security Manual: Clause SEC-POL-091].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0091.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q092: What are the operating hours for Video KYC agents? (Security case 92)
+Under Section 3, Video KYC agents are available Monday through Saturday from 9:00 AM to 8:00 PM IST (excluding national holidays).
+[Reference KYC & Security Manual: Clause SEC-POL-092].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0092.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q093: When does an account become dormant due to inactivity? (Security case 93)
+Under Section 4, an account becomes Inactive after 12 continuous months of no customer transactions, and becomes Dormant after 24 continuous months. [Reference KYC & Security Manual: Clause SEC-POL-093].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0093.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q094: What is the customer liability policy if fraud is reported within 3 days? (Security case 94)
+Under Section 5, customers have Zero Liability (100% refund) if third-party electronic fraud is reported within 3 calendar days of receiving the transaction alert. [Reference KYC & Security Manual: Clause SEC-POL-094].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0094.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q095: What is the emergency helpline number to report fraud or freeze my cards? (Security case 95)
+Under Section 6, the 24/7 toll-free fraud helpline is 1800-FIN-BASE (1800-346-2273) or email fraud-alert@finbase.com. [Reference KYC &
+Security Manual: Clause SEC-POL-095].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0095.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q096: What Officially Valid Documents (OVD) are accepted for KYC? (Security case 96)
+Under Section 2, FinBase accepts 5 OVDs: Aadhaar Card, PAN Card, Passport, Driving License, and Voter ID Card. [Reference KYC &
+Security Manual: Clause SEC-POL-096].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0096.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q097: What is the transaction limit on a Minimum KYC account? (Security case 97)
+Under Section 1, Minimum KYC accounts have a monthly credit limit of ₹10,000 and an annual limit of ₹1,00,000, valid for 12 months.
+[Reference KYC & Security Manual: Clause SEC-POL-097].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0097.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q098: Can I complete Video KYC using a scanned soft copy of my PAN card? (Security case 98)
+No. Under Section 3, you must show the original physical PAN card to the camera. Photocopies or digital scans on screens are strictly rejected. [Reference KYC & Security Manual: Clause SEC-POL-098].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-03.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0098.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q099: How can I reactivate my dormant bank account? (Security case 99)
+Under Section 4, you can reactivate your account by completing an in-app digital re-KYC self-declaration and a 1-minute video verification.
+[Reference KYC & Security Manual: Clause SEC-POL-099].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-01.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0099.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Q100: When is Two-Factor Authentication (2FA) mandatory? (Security case 100)
+Under Section 7, 2FA is mandatory for all outward fund transfers and card transactions exceeding ₹2,000. [Reference KYC & Security
+Manual: Clause SEC-POL-100].
+• Verification Protocol: Regulated under RBI Master Directions KYC-SEC-DIR-02.
+• Security Event Log: Captured under SIEM audit stream SEC-LOG-0100.
+• Escalation Protocol: Dispatched directly to FinBase Incident Response Team.
+• Regulatory reporting window: Within 6 hours of incident confirmation.
+Section KYC-EXT-001: Extended Operational Protocol 1 This regulatory annexure establishes compliance benchmark FB-STD-KYC-0001 under the FinBase Master Governance Framework.
+• Verification check: Automated telemetry validation against transaction registry module REG-0001.
+• Risk parameter: Maximum permissible variance threshold set at 2.5% for all standard audits.
+• Compliance sign-off: Mandatory bi-annual review by the Head of FinBase Regulatory Affairs.
+• Audit documentation: Retained in tamper-evident secure storage for a statutory period of 8 years.
+• Customer notification: Any change affecting service terms is published 30 calendar days in advance via official channels.
+Section KYC-EXT-002: Extended Operational Protocol 2 This regulatory annexure establishes compliance benchmark FB-STD-KYC-0002 under the FinBase Master Governance Framework.
+• Verification check: Automated telemetry validation against transaction registry module REG-0002.
+• Risk parameter: Maximum permissible variance threshold set at 2.5% for all standard audits.
+• Compliance sign-off: Mandatory bi-annual review by the Head of FinBase Regulatory Affairs.
+• Audit documentation: Retained in tamper-evident secure storage for a statutory period of 8 years.
+• Customer notification: Any change affecting service terms is published 30 calendar days in advance via official channels.
+Section KYC-EXT-003: Extended Operational Protocol 3 This regulatory annexure establishes compliance benchmark FB-STD-KYC-0003 under the FinBase Master Governance Framework.
+• Verification check: Automated telemetry validation against transaction registry module REG-0003.
+• Risk parameter: Maximum permissible variance threshold set at 2.5% for all standard audits.
+• Compliance sign-off: Mandatory bi-annual review by the Head of FinBase Regulatory Affairs.
+• Audit documentation: Retained in tamper-evident secure storage for a statutory period of 8 years.
+• Customer notification: Any change affecting service terms is published 30 calendar days in advance via official channels.
