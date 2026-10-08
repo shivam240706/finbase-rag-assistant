@@ -54,3 +54,7 @@ known weaknesses (honest):
 - golden_set.json / eval_report.md   my eval set and results
 - work/                chunks.jsonl, vectors.npy, final_numbers.json
 - data/raw/            the six provided pdfs
+
+## Live demo
+https://shivam240706-finbase-support.hf.space (browser port of app.py, model runs in the visitor's browser)
+
